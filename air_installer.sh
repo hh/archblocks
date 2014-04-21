@@ -12,13 +12,13 @@
 # bash install.sh
 
 # RESPOSITORY ------------------------------------------------------------
-REMOTE=https://raw.github.com/altercation/archblocks/master
+REMOTE=https://raw.github.com/hh/archblocks/master
 
 # CONFIG -----------------------------------------------------------------
 
-HOSTNAME=tau
-USERNAME=es
-USERSHELL=/bin/bash
+HOSTNAME=mba
+USERNAME=hh
+USERSHELL=/bin/zsh
 FONT=Lat2-Terminus16
 FONT_MAP=8859-1_to_uni
 LANGUAGE=en_US.UTF-8
@@ -35,7 +35,7 @@ KERNEL_PARAMS="quiet i915.i915_enable_rc6=1 i915.i915_enable_fbc=1 i915.lvds_dow
 # list a url to use as a mr config file and archblocks core install will
 # su to the new user's (USERNAME above) home and bootstrap using it.
 # mr will be installed if this variable is set.
-MR_BOOTSTRAP=https://raw.github.com/altercation/es-etc/master/vcs/.mrconfig
+##### MR_BOOTSTRAP=https://raw.github.com/altercation/es-etc/master/vcs/.mrconfig
 
 # BLOCKS -----------------------------------------------------------------
 TIME=common/time_chrony_utc
